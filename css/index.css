@@ -45,7 +45,6 @@ main {
 .js-greetingForm input {
   border: 0;
   border-radius: 6px;
-  font-size: 1.2rem;
   background:  rgba(250, 250, 250, 0.5);
   padding: .5rem;
 }
@@ -54,7 +53,40 @@ main {
   outline: none;
 }
 .js-greetingForm input {
+  font-size: 1.2rem;
   margin-top: .5rem;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+.todo button#js-toDoAdd {
+  background:  rgba(250, 250, 250, 0.5);
+  border: 0;
+  border-radius: 6px;
+  padding: .5rem;
+}
+ul.js-toDoList li {
+  padding: .1rem 0;
+  color: rgb(49, 49, 49);
+}
+ul.js-toDoList li.checked {
+  text-decoration: line-through;
+  color: rgba(49, 49, 49, 0.4);
+}
+ul.js-toDoList li span {
+  margin-right: .5rem;
+}
+ul.js-toDoList li button {
+  background: none;
+  border: 0;
+  border-radius: 6px;
+}
+ul.js-toDoList li button:hover {
+  background:  rgba(250, 250, 250, 0.5);
+}
+ul.js-toDoList li button:focus {
+  outline: none;
 }
 
 @keyframes fadeIn{
@@ -65,7 +97,6 @@ main {
     opacity: 1;
   }
 }
-
 .bgImage {
   position: absolute;
   top: 0;
@@ -73,5 +104,5 @@ main {
   width: 100%;
   height: 100%;
   z-index: -1;
-  animation: fadeIn 1s linear;
+  animation: fadeIn 1.5s linear;
 }

@@ -45,7 +45,7 @@ function askForCoords() {
 }
 
 function loadCoords() {
-  const loadCoords = localStorage.getItem('COORDS')
+  const loadCoords = localStorage.getItem(COORDS)
   if (loadCoords == null) {
     askForCoords()
   } else {

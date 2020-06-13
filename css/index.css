@@ -1,0 +1,77 @@
+* {
+  font-family: 'EB Garamond', serif;
+}
+body {
+  background-color: mistyrose;
+  margin: 0 auto;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.js-clock h1,
+.js-weather,
+.js-weather-detail {
+  color: rgb(49, 49, 49);
+}
+.js-clock h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.6rem;
+}
+.js-weather {
+  font-size: 1.1rem;
+}
+.js-weather-detail {
+  font-size: .86rem;
+}
+.invisible{
+  display: none;
+}
+.visible {
+  display: block;
+}
+.js-greeting {
+  margin: 0;
+  color: rgb(49, 49, 49);
+  padding: .5rem;
+}
+.js-greeting:hover {
+  background:  rgba(250, 250, 250, 0.3);
+  cursor: pointer;
+}
+.js-toDoForm input,
+.js-greetingForm input {
+  border: 0;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  background:  rgba(250, 250, 250, 0.5);
+  padding: .5rem;
+}
+.js-toDoForm input:focus,
+.js-greetingForm input:focus {
+  outline: none;
+}
+.js-greetingForm input {
+  margin-top: .5rem;
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1s linear;
+}

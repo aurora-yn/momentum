@@ -1,7 +1,7 @@
 # Momentum
 for new tab in any browsers
 
-<img src="https://i.ibb.co/0CMbrLt/Screenshot.png" alt="screenshot" width="300">
+<img width="964" src="https://github.com/aurora-yn/momentum/blob/master/images/Screenshot.png" alt="screenshot">
 
 ---
 
